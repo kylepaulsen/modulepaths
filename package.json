@@ -1,0 +1,26 @@
+{
+  "name": "modulepaths",
+  "version": "1.0.0",
+  "description": "A browserify transform to output the current module path in a comment at the top of the module definition. Useful for debugging without sourcemaps.",
+  "main": "index.js",
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browserify",
+    "transform",
+    "module",
+    "path",
+    "filename",
+    "comment"
+  ],
+  "author": {
+    "name": "Kyle Paulsen",
+    "email": "kyle.a.paulsen@gmail.com",
+    "url": "http://kylepaulsen.com"
+  },
+  "license": "MIT"
+}
